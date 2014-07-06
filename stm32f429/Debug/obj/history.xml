@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F429_439xx -D__FPU_USED -ID:\My Documents\GitHub\CoOS_STM32F429\cmsis -ID:\My Documents\GitHub\CoOS_STM32F429\cmsis_lib -ID:\My Documents -ID:\My Documents\GitHub\CoOS_STM32F429\CoOS\kernel -ID:\My Documents\GitHub\CoOS_STM32F429\cmsis_boot -ID:\My Documents\GitHub\CoOS_STM32F429\cmsis_lib\include -ID:\My Documents\GitHub\CoOS_STM32F429\CoOS -ID:\My Documents\GitHub\CoOS_STM32F429\ub_lib -ID:\My Documents\GitHub\CoOS_STM32F429\CoOS\portable -ID:\My Documents\GitHub -ID:\My Documents\GitHub\CoOS_STM32F429">
+      <target file="timer.o" lastModified="1470a60cf90">
+         <source file="..\..\..\CoOS\kernel\timer.c" lastModified="146395d14e0"/>
+      </target>
+      <target file="mbox.o" lastModified="1470a60d548">
+         <source file="..\..\..\CoOS\kernel\mbox.c" lastModified="146395c2a80"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1470a51bce0">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14131951d70"/>
+      </target>
+      <target file="event.o" lastModified="1470a60d8d9">
+         <source file="..\..\..\CoOS\kernel\event.c" lastModified="146395c9010"/>
+      </target>
+      <target file="mutex.o" lastModified="1470a60dbb0">
+         <source file="..\..\..\CoOS\kernel\mutex.c" lastModified="146395e8410"/>
+      </target>
+      <target file="hook.o" lastModified="1470a60dfef">
+         <source file="..\..\..\CoOS\kernel\hook.c" lastModified="146395c6130"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1470a51b04e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="141fab06c00"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1470a51bde3">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="141e7e5d830"/>
+      </target>
+      <target file="serviceReq.o" lastModified="1470a60d356">
+         <source file="..\..\..\CoOS\kernel\serviceReq.c" lastModified="146395d4b90"/>
+      </target>
+      <target file="stm32_ub_led.o" lastModified="1470a51b2d5">
+         <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="141eb430520"/>
+      </target>
+      <target file="time.o" lastModified="1470a60d7c1">
+         <source file="..\..\..\CoOS\kernel\time.c" lastModified="146395d2480"/>
+      </target>
+      <target file="queue.o" lastModified="1470a60dad2">
+         <source file="..\..\..\CoOS\kernel\queue.c" lastModified="146395d72a0"/>
+      </target>
+      <target file="kernelHeap.o" lastModified="1470a60cd27">
+         <source file="..\..\..\CoOS\kernel\kernelHeap.c" lastModified="146395c49c0"/>
+      </target>
+      <target file="sem.o" lastModified="1470a60df1f">
+         <source file="..\..\..\CoOS\kernel\sem.c" lastModified="146395d5b30"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1470a51b82d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14131951d70"/>
+      </target>
+      <target file="port.o" lastModified="1470a60d9b5">
+         <source file="..\..\..\CoOS\portable\GCC\port.c" lastModified="146395f37c0"/>
+      </target>
+      <target file="core.o" lastModified="1470a60ce13">
+         <source file="..\..\..\CoOS\kernel\core.c" lastModified="146395caf50"/>
+      </target>
+      <target file="task.o" lastModified="1470a60d2ab">
+         <source file="..\..\..\CoOS\kernel\task.c" lastModified="146395d3420"/>
+      </target>
+      <target file="arch.o" lastModified="1470a60de3c">
+         <source file="..\..\..\CoOS\portable\arch.c" lastModified="146395f10b0"/>
+      </target>
+      <target file="mm.o" lastModified="1470a60d634">
+         <source file="..\..\..\CoOS\kernel\mm.c" lastModified="146395e93b0"/>
+      </target>
+      <target file="flag.o" lastModified="1470a60dd5a">
+         <source file="..\..\..\CoOS\kernel\flag.c" lastModified="146395c70d0"/>
+      </target>
+      <target file="utility.o" lastModified="1470a60d0df">
+         <source file="..\..\..\CoOS\kernel\utility.c" lastModified="146395cfd70"/>
+      </target>
+      <target file="main.o" lastModified="1470a845493">
+         <source file="..\..\..\main.c" lastModified="1470a844b10"/>
+      </target>
+   </processor>
+</history>
